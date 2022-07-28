@@ -1,0 +1,20 @@
+Tutorial : How to Test Node.js Apps using Mocha, Chai, and SinonJS
+
+source : https://www.digitalocean.com/community/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs
+
+Mocha 
+-is a test runner
+-This just means that it is a tool that runs and executes our tests. 
+Chai
+- is an assertion library
+Sinon
+-provides stand-alone test spies, stubs, and mocks.
+Spies :
+- Creates fake functions which we can use to track executions
+- We can determine whether the function has been executed and how many times it's been called.
+-We can spy on existing function and get the same capability, to track those functions executions.
+Stubs: 
+-Enables us to replace functions
+-We can return whatever we want or have our functions work in a way that suites us to be able to test multiple scenarios.
+Mocks: They are fake methods, that have pre-programmed behavior and pre-programmed expectations.
+
