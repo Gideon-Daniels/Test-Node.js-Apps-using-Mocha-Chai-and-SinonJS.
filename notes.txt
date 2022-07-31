@@ -14,7 +14,10 @@ Spies :
 - We can determine whether the function has been executed and how many times it's been called.
 -We can spy on existing function and get the same capability, to track those functions executions.
 Stubs: 
+-Has all the functionality of spies
 -Enables us to replace functions
 -We can return whatever we want or have our functions work in a way that suites us to be able to test multiple scenarios.
 Mocks: They are fake methods, that have pre-programmed behavior and pre-programmed expectations.
 
+Extra Notes
+- https://github.com/domenic/chai-as-promised
